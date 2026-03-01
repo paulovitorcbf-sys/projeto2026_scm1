@@ -1,1 +1,23 @@
-print("Mudanças realizadas no projeto")
+
+    <title>Meu Primeiro Site</title>
+    <style>
+        body { font-family: Arial; text-align: center; background-color: preto escuro }
+        h1 { color: darkblue; }
+        button { padding: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h1>Bem-vindo ao meu site!</h1>
+    <p>Estou aprendendo a programar com o Gemini.</p>
+    
+    <button onclick="avisar()">Clique aqui</button>
+
+    <script>
+        function avisar() {
+            alert("Parabéns! Você criou uma interação!");
+        }
+    </script>
+
+</body>
+</html>
